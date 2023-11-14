@@ -34,6 +34,7 @@ public class Main {
     }
 
     public static boolean isPalindrome(int palindromeNum){
+        palindromeNum = Math.abs(palindromeNum);
         String reverse = "";
         String convertedNumber = Integer.toString(palindromeNum);
 
@@ -65,6 +66,6 @@ public class Main {
             String word = words[tempNum];
             result += " " + word;
         }
-        return result;
+        return result.trim();
     }
 }
