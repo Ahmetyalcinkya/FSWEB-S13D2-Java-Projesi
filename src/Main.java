@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Palindrome Number
+        System.out.println("Bir sayı giriniz :");
         int palindromeNumber = intScanner();
         if(isPalindrome(palindromeNumber)){
            System.out.println("Palindrome sayıdır!! ---> " + isPalindrome(palindromeNumber));
@@ -13,6 +14,7 @@ public class Main {
         }
 
         // Perfect Number
+        System.out.println("Bir sayı giriniz :");
         int perfectNumber = intScanner();
         if(isPerfectNumber(perfectNumber)){
             System.out.println("Mükemmel sayıdır! ---> " + isPerfectNumber(perfectNumber));
@@ -21,7 +23,7 @@ public class Main {
         }
 
         // Number to Words
-
+        System.out.println("Bir sayı giriniz :");
         int wordNumber = intScanner();
         System.out.println(numberToWords(wordNumber));
 
